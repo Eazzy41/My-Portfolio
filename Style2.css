@@ -1,0 +1,210 @@
+.Mustache{
+    width: 500px;
+    height: 200px;
+}
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+nav a:hover{
+    color: rgb(38, 164, 202);
+}
+.Banner{
+    width: 100%;
+     position: relative;
+}
+.Banner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.main{
+     position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main2{
+     position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+        padding-right: 200px;
+}
+.main3{
+     position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-right: 140px;
+}
+.main4{
+     position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-right: 230px;
+}
+button{
+     position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 50px;
+    color: white;
+    background-color: rgb(46, 155, 131);
+}
+h1{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+h3{
+background-color: rgb(41, 40, 40);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+   margin: 40px;
+   padding-left: 150px;
+}
+.box{
+   width: 30%;
+   text-align: center;
+}
+.box img{
+width: 100;
+}
+.Father{
+     width: 300px;
+     height: 250px;
+     border: solid;
+}
+.Actor{
+     width: 300px;
+     height: 250px;
+      border: solid;
+}
+.Nerd{
+     width: 300px;
+     height: 250px;
+      border: solid;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+}
+footer{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+/* MOBILE VIEW */
+@media screen and (max-width: 600px) {
+
+    /* Logo */
+    .Mustache {
+        width: 250px;
+        height: 100px;
+    }
+
+    /* Navigation */
+    nav a {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+
+    /* Banner */
+    .Banner img {
+        height: 400px;
+    }
+
+    .main {
+        top: 25%;
+        left: 50%;
+        width: 90%;
+    }
+
+    .main h1 {
+        font-size: 20px;
+    }
+
+    .main2 {
+        top: 40%;
+        left: 50%;
+        padding-right: 0;
+        width: 90%;
+    }
+
+    .main3 {
+        top: 50%;
+        left: 50%;
+        padding-right: 0;
+        width: 90%;
+    }
+
+    .main4 {
+        top: 60%;
+        left: 50%;
+        padding-right: 0;
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    button {
+        top: 75%;
+        left: 50%;
+    }
+
+    /* Father, Actor and Nerd */
+    .boxes {
+        display: block;
+        margin: 20px;
+        padding-left: 0;
+    }
+
+    .Father,
+    .Actor,
+    .Nerd {
+        width: 100%;
+        height: auto;
+    }
+
+    .roles,
+    .boxes > div {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer {
+        height: 60px;
+        padding-top: 30px;
+        font-size: 12px;
+    }
+}
